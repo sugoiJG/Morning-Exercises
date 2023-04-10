@@ -29,15 +29,23 @@ logSleepDeficit(8);
 
 // loopTenTimes - this will do a for loop that loops 10 times
 // call this function 2 times
-
+function loopTenTimes() {
+for (let i = 0; i < 10; i++) {
+    console.log(i)
+    } 
+} 
+loopTenTimes();
+loopTenTimes();
 
 
 // loopTwentyTimes - this will do a while loop that loops 20 times
 // call 1 time
-
-for (let i = 0; i < 10; i++) {
-    console.log(i)
+function loopTwentyTimes() {
+for (let j = 0; j < 20; j++) {
+    console.log(j)
 }
+}
+loopTwentyTimes();
 
 // (OPTIONAL) getPointTotal - this will take a points (array) parameter and log OR return (only do one) the sum of the points in the array
 function getPointTotal(points) {
